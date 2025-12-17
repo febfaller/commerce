@@ -9,6 +9,7 @@
         {
             "addons": [
                 "ordermanagementaddon"
+                "xyformsstorefrontcommons"
             ],
             "storefronts": [
                 "yacceleratorstorefront"
@@ -91,6 +92,10 @@
         {
             "key": "xyformsservices.orbeon.url.address",
             "value": "http://localhost:8081/web-orbeon"
+        },
+        {
+            "key": "xyformsstorefrontcommons.orbeon.keystoreFile",
+            "value": "/opt/hybris/bin/platform/tomcat/lib/keystore"
         },
         {
             "key": "xyformsservices.webroot.override",
